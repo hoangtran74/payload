@@ -1,4 +1,4 @@
-FROM node:20.17 as base
+FROM node:22.13 as base
 
 FROM base as builder
 

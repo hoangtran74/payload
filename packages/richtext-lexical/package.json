@@ -349,7 +349,7 @@
     "@lexical/headless": "0.21.0",
     "@lexical/html": "0.21.0",
     "@lexical/link": "0.21.0",
-    "@lexical/list": "0.21.0",
+    "@lexical/list": "0.22.0",
     "@lexical/mark": "0.21.0",
     "@lexical/react": "0.21.0",
     "@lexical/rich-text": "0.21.0",

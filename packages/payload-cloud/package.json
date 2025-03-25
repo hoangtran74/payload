@@ -48,7 +48,7 @@
     "@payloadcms/email-nodemailer": "workspace:*",
     "amazon-cognito-identity-js": "^6.1.2",
     "nodemailer": "6.9.10",
-    "resend": "^0.17.2"
+    "resend": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",

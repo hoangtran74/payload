@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "latest",
-    "@payloadcms/next": "latest",
+    "@payloadcms/next": "3.43.0",
     "@payloadcms/richtext-slate": "latest",
     "@payloadcms/ui": "latest",
     "dotenv": "^8.2.0",

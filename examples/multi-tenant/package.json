@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "latest",
-    "@payloadcms/next": "latest",
-    "@payloadcms/plugin-multi-tenant": "file:payloadcms-plugin-multi-tenant-3.15.1.tgz",
+    "@payloadcms/next": "3.43.0",
+    "@payloadcms/plugin-multi-tenant": "3.18.0",
     "@payloadcms/richtext-lexical": "latest",
     "@payloadcms/ui": "latest",
     "cross-env": "^7.0.3",

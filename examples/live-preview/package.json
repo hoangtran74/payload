@@ -19,7 +19,7 @@
   "dependencies": {
     "@payloadcms/db-mongodb": "latest",
     "@payloadcms/live-preview-react": "latest",
-    "@payloadcms/next": "latest",
+    "@payloadcms/next": "3.73.0",
     "@payloadcms/richtext-slate": "latest",
     "@payloadcms/ui": "latest",
     "cross-env": "^7.0.3",
@@ -27,7 +27,7 @@
     "escape-html": "^1.0.3",
     "graphql": "^16.9.0",
     "next": "^15.0.0",
-    "payload": "latest",
+    "payload": "3.74.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-hook-form": "^7.51.3"

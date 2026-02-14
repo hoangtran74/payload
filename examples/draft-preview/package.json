@@ -16,14 +16,14 @@
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "latest",
-    "@payloadcms/next": "latest",
+    "@payloadcms/next": "3.73.0",
     "@payloadcms/richtext-slate": "latest",
     "@payloadcms/ui": "latest",
     "dotenv": "^8.2.0",
     "escape-html": "^1.0.3",
     "graphql": "^16.9.0",
     "next": "^15.0.0",
-    "payload": "latest",
+    "payload": "3.74.0",
     "payload-admin-bar": "^1.0.6",
     "react": "19.0.0",
     "react-dom": "19.0.0"

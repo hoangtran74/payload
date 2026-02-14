@@ -15,11 +15,11 @@ importers:
         specifier: latest
         version: 3.0.2(@types/react@19.0.1)(graphql@16.9.0)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2)
       '@payloadcms/plugin-multi-tenant':
-        specifier: file:payloadcms-plugin-multi-tenant-3.15.1.tgz
-        version: file:payloadcms-plugin-multi-tenant-3.15.1.tgz(@payloadcms/ui@3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))
+        specifier: 3.18.0
+        version: 3.18.0(@payloadcms/ui@3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))
       '@payloadcms/richtext-lexical':
         specifier: latest
-        version: 3.0.2(6qerb26rs4bgoavayjhmleobf4)
+        version: 3.0.2(3f7e737c14360d3e71e746df0d5e87ae)
       '@payloadcms/ui':
         specifier: latest
         version: 3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2)
@@ -583,8 +583,8 @@ packages:
   '@lexical/react@0.20.0':
     resolution: {integrity: sha512-5QbN5AFtZ9efXxU/M01ADhUZgthR0e8WKi5K/w5EPpWtYFDPQnUte3rKUjYJ7uwG1iwcvaCpuMbxJjHQ+i6pDQ==}
     peerDependencies:
-      react: 19.0.0-rc-65a56d0e-20241020
-      react-dom: 19.0.0-rc-65a56d0e-20241020
+      react: '>=17.x'
+      react-dom: '>=17.x'
 
   '@lexical/rich-text@0.20.0':
     resolution: {integrity: sha512-BR1pACdMA+Ymef0f5EN1y+9yP8w7S+9MgmBP1yjr3w4KdqRnfSaGWyxwcHU8eA+zu16QfivpB6501VJ90YeuXw==}
@@ -711,13 +711,12 @@ packages:
       next: ^15.0.0
       payload: 3.0.2
 
-  '@payloadcms/plugin-multi-tenant@file:payloadcms-plugin-multi-tenant-3.15.1.tgz':
-    resolution: {integrity: sha512-bRuvmbrCLQr9ZL1jL4KLz+Zuv6vC4WTGKXcFkhdZoFY5tP80t78WUsxJP71FM1d1U+udJGvEA5K2bMJc9tQWOA==, tarball: file:payloadcms-plugin-multi-tenant-3.15.1.tgz}
-    version: 3.15.1
+  '@payloadcms/plugin-multi-tenant@3.18.0':
+    resolution: {integrity: sha512-15Tyi77xSRIBEo9VyEF90n3RaUeTkNNUvVnlh/ju2nkuWWcaS1VJgvN9KprVm/fwRJBdzRd/MQhyhFUaFXNyxw==}
     peerDependencies:
-      '@payloadcms/ui': 3.15.1
+      '@payloadcms/ui': 3.18.0
       next: ^15.0.3
-      payload: 3.15.1
+      payload: 3.18.0
 
   '@payloadcms/richtext-lexical@3.0.2':
     resolution: {integrity: sha512-NHxnIi8qIa5ug3JQ/oX4je+94FLGhofmP02RL7BoyknNIw8Jv0zZY4NJCgrUBpmRw4CVxCc+dikMY+5243B9vA==}
@@ -3617,13 +3616,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@payloadcms/plugin-multi-tenant@file:payloadcms-plugin-multi-tenant-3.15.1.tgz(@payloadcms/ui@3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))':
+  '@payloadcms/plugin-multi-tenant@3.18.0(@payloadcms/ui@3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))':
     dependencies:
       '@payloadcms/ui': 3.0.2(@types/react@19.0.1)(monaco-editor@0.52.0)(next@15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4))(payload@3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2)
       next: 15.0.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.77.4)
       payload: 3.0.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(typescript@5.5.2)
 
-  '@payloadcms/richtext-lexical@3.0.2(6qerb26rs4bgoavayjhmleobf4)':
+  '@payloadcms/richtext-lexical@3.0.2(3f7e737c14360d3e71e746df0d5e87ae)':
     dependencies:
       '@faceless-ui/modal': 3.0.0-beta.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@faceless-ui/scroll-info': 2.0.0-beta.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4461,7 +4460,7 @@ snapshots:
       debug: 4.3.7
       enhanced-resolve: 5.17.1
       eslint: 8.57.1
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       fast-glob: 3.3.2
       get-tsconfig: 4.8.1
       is-bun-module: 1.2.1
@@ -4474,7 +4473,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -4496,7 +4495,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.31.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.15.0(eslint@8.57.1)(typescript@5.5.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
